@@ -1,0 +1,36 @@
+nav li {
+    list-style: none;
+}
+
+nav ul {
+    padding-left: 0;
+    
+}
+
+nav a {
+    border-bottom: 1px solid #697469;
+    color: #454033;
+    display: block;
+    padding: .5rem 3rem;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #c2d4f4;
+    color: white;
+    outline: none;
+}
+
+nav a:active {
+    background-color: #6379a0;
+}
+
+@media (min-width: 600px) {
+    nav a {
+        border: none;
+        display: inline-block;
+    }
+    nav li {
+        display: inline-block;
+    }
+}
