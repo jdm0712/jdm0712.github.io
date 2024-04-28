@@ -2,6 +2,32 @@
     box-sizing: border-box;
 }
 
+.external {
+    color: black;
+    background-color: #c2d4f4;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 1.2rem 0.5rem;
+    text-decoration: none;
+}
+
+.external:hover, .external:focus {
+    background-color: #6379a0;
+    color: white;
+    outline: none;
+}
+.internal {
+    color: #4130dba6;
+}
+
+.internal:hover {
+    color: rgba(196, 31, 31, 0.726);
+}
+img {
+    max-width: 600px;
+    height: auto;
+    width: auto;
+}
 nav li {
     list-style: none;
 }
@@ -28,6 +54,7 @@ nav a:hover, nav a:focus {
 nav a:active {
     background-color: #6379a0;
 }
+
 
 @media (min-width: 600px) {
     nav a {
