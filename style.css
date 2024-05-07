@@ -72,9 +72,9 @@ nav a:active {
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 325x){
     .logo{
-      width: 100px;
+      width: 50px;
     }
     nav ul {
      text-align: left;
