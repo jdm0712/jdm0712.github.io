@@ -35,7 +35,7 @@
     color: rgba(196, 31, 31, 0.726);
 }
 img {
-    max-width: 600px;
+    max-width: fit-content;
 }
 nav {
     font-size: 0.75em;
