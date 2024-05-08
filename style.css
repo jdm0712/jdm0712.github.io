@@ -1,5 +1,33 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#badge-gallery {
+    margin-top: 30px;
+}
+
+#badge-gallery img {
+    display: block;
+    width: 100%;
+    margin-top: 9px;
+}
+
+.badge-title {
+    text-align: center;
+}
+button {
+    background-color: #6d6bacff;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+button:hover {
+    background-color: rgb(61, 60, 97);
+    color: white;
+    outline: none;
 }
 .content {
     display: flex;
@@ -21,16 +49,17 @@
     width: 75px;
   }
 .external {
-    color: black;
-    background-color: #c2d4f4;
+    color: white;
+    background-color: #6d6bacff;
     border-radius: 12px;
     display: inline-block;
-    padding: 1.2rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    margin: 8px;
     text-decoration: none;
 }
 
 .external:hover, .external:focus {
-    background-color: #6379a0;
+    background-color: rgb(61, 60, 97);
     color: white;
     outline: none;
 }
@@ -41,8 +70,13 @@
 .internal:hover {
     color: rgba(196, 31, 31, 0.726);
 }
+
+footer {
+    text-align: center;
+}
 img {
     max-width: fit-content;
+    margin: 15px;
 }
 nav {
     font-size: 0.75em;
@@ -92,6 +126,23 @@ nav a:active {
     
     nav a:hover, nav a:focus {
         background-color: white;
+    }
+}
+
+@media (min-width: 500px) {
+    #badge-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 6px;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 900px) {
+    #badge-gallery {
+        grid-template-columns: repeat(3, 1fr);
+        width: 900px;
+        margin: auto;
     }
 }
 /**************************CONTACT FORM STYLES**************************/

@@ -10,20 +10,41 @@
     <title>Projects</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="projects.html">Projects</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1>Projects</h1>
-        <p class="tagline">From Lines of Code to Works of Art: Your Solution Starts Here</p>
-    </header>
+    <div class="flex-container">
+        <header>
+            <a href="index.html" title="Visit Homepage">
+            <img src="web-design-logo.png" alt="Web Design Logo" class="logo">
+            </a>
+            
+        </header>
+        <div><h1>Min Jang | Web Developer</h1></div>
+            
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="badges.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
-
+        <div id="project">
+            <div class="project-card">
+                <h2>HTML & CSS Badge Gallery</h2>
+                <p>A collection of cool badges I earned from the <a href="https://htmlandcssguidebook.com/">HTML & CSSS Guidebook by Josiah Spence</a></p>
+                <a href="badges.html">
+                    <button>Badge Gallery</button>
+                </a>
+            </div>
+            <div class="project-card">
+                <h2>HTML Contact Form</h2>
+                <p>A sophisticated contact form utilizing Sheet Monkey API</p>
+                <a href="contact.html">
+                    <button>Contact Form</button>
+                </a>
+            </div>
+        </div>
     </main>
     <footer>
         <small>Website designed by <a href="mailto:mj@maricopa.edu">Min Jang</a>, &copy; 2024.</small>
